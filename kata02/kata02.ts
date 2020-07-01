@@ -3,8 +3,10 @@ chop関数
 */
 
 function chop(input: number, targetArray: number[]) {
-  return 1;
+  const result = targetArray.findIndex((element) => element === input);
+  return result;
 }
+
 /*
 test関数
 */
